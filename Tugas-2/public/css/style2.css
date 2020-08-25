@@ -1,0 +1,16 @@
+body{
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: inline-flex;
+    width: 120px;
+}
+form>div{
+    margin: 15px 0 ;
+}
+form>div>div{
+    display: inline-block;
+}
