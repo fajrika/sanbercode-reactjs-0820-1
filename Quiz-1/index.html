@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            width: 40vw;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: inline-flex;
+            width: 120px;
+        }
+
+        form>div {
+            margin: 15px 0;
+        }
+
+        form>div>div {
+            display: inline-block;
+        }
+
+        button {
+            width: fit-content;
+            border-radius: 20px;
+            /* border: 1px groove; */
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Pembelian Buah</h1>
+        <form>
+            <div>
+                <label for="namaPelanggan">
+                    Nama Pelanggan
+                </label>
+                <input type="text" name="namaPelanggan" id="namaPelanggan">
+            </div>
+            <div>
+                <label for="daftarItem">
+                    Daftar Item
+                </label>
+                <div>
+                    <input id="semangka" type="checkbox" value="semangka">
+                    <label for="semangka">Semangka</label>
+                    <br>
+                    <input id="jeruk" type="checkbox" value="jeruk">
+                    <label for="jeruk">Jeruk</label>
+                    <br>
+                    <input id="nanas" type="checkbox" value="nanas">
+                    <label for="nanas">Nanas</label>
+                    <br>
+                    <input id="salak" type="checkbox" value="salak">
+                    <label for="salak">Salak</label>
+                    <br>
+                    <input id="anggur" type="checkbox" value="anggur">
+                    <label for="anggur">Anggur</label>
+                </div>
+            </div>
+            <div>
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
