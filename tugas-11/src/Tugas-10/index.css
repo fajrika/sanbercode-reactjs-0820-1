@@ -1,0 +1,18 @@
+/* table {
+    border-collapse: collapse;
+} */
+.card2 {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+td {
+    background-color: rgb(237, 131, 90);
+    border: 1px solid white;
+}
+th {
+    background-color: rgb(170, 170, 170);
+    border: 1px solid white;
+}
