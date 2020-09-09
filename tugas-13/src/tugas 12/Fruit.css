@@ -1,0 +1,59 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center
+}
+
+th {
+  border: 2px solid white;
+  background-color: #aaaaaa;
+}
+
+td {
+  border: 2px solid white;
+  background-color: #ff7f50;
+}
+
+.tabel-atas {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.form-add{
+  width:350px;
+  margin: auto;
+}
+
+
+.form-add>label{
+  
+  
+  width:100px;
+  margin:auto;
+  display:inline-block;
+}
+
+.submit-add{
+  padding-top: 10px;
+}
+.button-aksi{
+  width:150px;
+  margin:auto;
+  
+}
+.buttonedit , .buttondel{
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.buttondel{
+  margin-left: 40px;
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center
+}
+
+th {
+  border: 2px solid white;
+  background-color: #aaaaaa;
+}
+
+td {
+  border: 2px solid white;
+  background-color: #ff7f50;
+}
+
+.tabel-atas {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
