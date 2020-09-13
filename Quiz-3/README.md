@@ -1,2 +1,0 @@
-Username : fajrika
-Password : admin
